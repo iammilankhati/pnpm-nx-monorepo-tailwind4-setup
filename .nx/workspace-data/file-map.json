@@ -1,0 +1,348 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.3.11",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "8751725541699964837"
+      },
+      {
+        "file": "static/environment.js",
+        "hash": "12768544180004695811"
+      },
+      {
+        "file": ".nx/workspace-data/E7B1F365-6A00-5F4D-853A-0073D7603723.db-shm",
+        "hash": "11275989199343864445"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "8197223220134636917"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "675737732758602688"
+      },
+      {
+        "file": "static/styles.js",
+        "hash": "7569025066195547382"
+      },
+      {
+        "file": "dependency-graph.html",
+        "hash": "12560290355241016586"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12306673120572248009"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "14684446513790140520"
+      },
+      {
+        "file": ".nx/workspace-data/E7B1F365-6A00-5F4D-853A-0073D7603723.db-wal",
+        "hash": "8174096346757156534"
+      },
+      {
+        "file": "static/main.js",
+        "hash": "10543383890141206284"
+      },
+      {
+        "file": "static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "5447845398774417499"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "11854644235916334300"
+      },
+      {
+        "file": "README.md",
+        "hash": "13700441986123931962"
+      },
+      {
+        "file": "nx.json",
+        "hash": "875501778408461423"
+      },
+      {
+        "file": "static/runtime.js",
+        "hash": "2835949357856416383"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "2258179684307776080"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "4146601625526299189"
+      },
+      {
+        "file": "static/styles.css",
+        "hash": "5135390112669314880"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/6517970499672260316",
+        "hash": "735254147758227273"
+      }
+    ],
+    "projectFileMap": {
+      "landing": [
+        {
+          "file": "apps/landing/.git/FETCH_HEAD",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/landing/.gitignore",
+          "hash": "1867017717006394117"
+        },
+        {
+          "file": "apps/landing/README.md",
+          "hash": "10766794746169900117"
+        },
+        {
+          "file": "apps/landing/eslint.config.mjs",
+          "hash": "11349616980964601162"
+        },
+        {
+          "file": "apps/landing/next.config.ts",
+          "hash": "17157214668998829023"
+        },
+        {
+          "file": "apps/landing/package-lock.json",
+          "hash": "18241783762417101237"
+        },
+        {
+          "file": "apps/landing/package.json",
+          "hash": "17088279406752263201",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@tailwindcss/postcss",
+            "npm:@types/node@20.19.10",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:tailwindcss",
+            "npm:typescript@5.9.2",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom",
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "apps/landing/postcss.config.mjs",
+          "hash": "535692822154927684"
+        },
+        {
+          "file": "apps/landing/public/file.svg",
+          "hash": "15617830351863523835"
+        },
+        {
+          "file": "apps/landing/public/globe.svg",
+          "hash": "9134466864871335697"
+        },
+        {
+          "file": "apps/landing/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/landing/public/vercel.svg",
+          "hash": "3007623926711696394"
+        },
+        {
+          "file": "apps/landing/public/window.svg",
+          "hash": "16677869292061012332"
+        },
+        {
+          "file": "apps/landing/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/landing/src/app/globals.css",
+          "hash": "14497081534050743901"
+        },
+        {
+          "file": "apps/landing/src/app/layout.tsx",
+          "hash": "3768300601413009371"
+        },
+        {
+          "file": "apps/landing/src/app/page.tsx",
+          "hash": "16724718120515079934"
+        },
+        {
+          "file": "apps/landing/tsconfig.json",
+          "hash": "14245432032657560277"
+        }
+      ],
+      "core": [
+        {
+          "file": "apps/core/.git/FETCH_HEAD",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/core/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "apps/core/.prettierrc",
+          "hash": "4808572120966128913"
+        },
+        {
+          "file": "apps/core/README.md",
+          "hash": "10741870943097893083"
+        },
+        {
+          "file": "apps/core/eslint.config.mjs",
+          "hash": "341460240617997069"
+        },
+        {
+          "file": "apps/core/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "apps/core/package.json",
+          "hash": "8123781451262133315",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node@22.17.1",
+            "npm:@types/supertest",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:globals@16.3.0",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support@0.5.21",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths@4.2.0",
+            "npm:typescript@5.9.2",
+            "npm:typescript-eslint",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs@7.8.2"
+          ]
+        },
+        {
+          "file": "apps/core/src/app.controller.spec.ts",
+          "hash": "2727664763654384995"
+        },
+        {
+          "file": "apps/core/src/app.controller.ts",
+          "hash": "4552329938751326480"
+        },
+        {
+          "file": "apps/core/src/app.module.ts",
+          "hash": "11673476679848632172"
+        },
+        {
+          "file": "apps/core/src/app.service.ts",
+          "hash": "16892833931858030153"
+        },
+        {
+          "file": "apps/core/src/main.ts",
+          "hash": "6783086878492621953"
+        },
+        {
+          "file": "apps/core/test/app.e2e-spec.ts",
+          "hash": "7164584812487523395"
+        },
+        {
+          "file": "apps/core/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "apps/core/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "apps/core/tsconfig.json",
+          "hash": "13757859475919901779"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/dist/Button.d.ts",
+          "hash": "599153057272669030"
+        },
+        {
+          "file": "packages/shared-ui/dist/Button.d.ts.map",
+          "hash": "5195733802247719754"
+        },
+        {
+          "file": "packages/shared-ui/dist/Button.js",
+          "hash": "10987258031290915613"
+        },
+        {
+          "file": "packages/shared-ui/dist/Button.js.map",
+          "hash": "984834587320923978"
+        },
+        {
+          "file": "packages/shared-ui/dist/index.d.ts",
+          "hash": "10156354172305793160"
+        },
+        {
+          "file": "packages/shared-ui/dist/index.d.ts.map",
+          "hash": "15633492455210189669"
+        },
+        {
+          "file": "packages/shared-ui/dist/index.js",
+          "hash": "3662893524702035775"
+        },
+        {
+          "file": "packages/shared-ui/dist/index.js.map",
+          "hash": "4134222674892864748"
+        },
+        {
+          "file": "packages/shared-ui/dist/tsconfig.tsbuildinfo",
+          "hash": "12618007181194190178"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "10484812003348170682",
+          "deps": [
+            "npm:typescript@5.9.2",
+            "npm:@types/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/src/Button.tsx",
+          "hash": "10558103602602167424"
+        },
+        {
+          "file": "packages/shared-ui/src/index.ts",
+          "hash": "8665336225023395340"
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "1272942749510291653"
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.tsbuildinfo",
+          "hash": "6441543887590162076"
+        }
+      ]
+    }
+  }
+}

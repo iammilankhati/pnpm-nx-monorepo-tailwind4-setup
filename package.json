@@ -1,0 +1,20 @@
+{
+  "name": "pnpm-nx-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:landing": "concurrently \"nx run shared-ui:dev\" \"nx run landing:dev\" --names \"ui,landing\" --prefix-colors \"blue,green\"",
+    "dev:all": "concurrently \"nx run shared-ui:dev\" \"nx run landing:dev\" \"nx run core:dev\" --names \"ui,landing,core\" --prefix-colors \"blue,green,yellow\"",
+    "dev:single": "nx run landing:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "nx": "^21.3.11"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

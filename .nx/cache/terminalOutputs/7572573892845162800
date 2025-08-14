@@ -1,0 +1,9 @@
+
+> shared-ui@1.0.0 dev /Users/azminds/Desktop/daily/playground/pnpm-nx-monorepo/packages/shared-ui
+> tsc --watch
+
+[2J[3J[H[[90m8:56:51 PM[0m] Starting compilation in watch mode...
+
+[[90m8:56:52 PM[0m] Found 0 errors. Watching for file changes.
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run-many --target=dev projects=landing,shared-ui --parallel=2",
+    "startTime": "2025-08-13T16:19:10.343Z",
+    "endTime": "2025-08-13T16:20:07.571Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "landing:dev",
+      "target": "dev",
+      "projectName": "landing",
+      "hash": "17703232349669002755",
+      "startTime": "2025-08-13T16:19:10.420Z",
+      "endTime": "2025-08-13T16:19:12.225Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
