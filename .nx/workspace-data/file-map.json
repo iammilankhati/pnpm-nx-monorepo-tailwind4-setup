@@ -10,76 +10,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "static/styles.js",
-        "hash": "7569025066195547382"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11753702689961626921"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "8742485222694460901"
-      },
-      {
-        "file": "CLAUDE.md",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "dependency-graph.html",
-        "hash": "12560290355241016586"
-      },
-      {
-        "file": "package.json",
-        "hash": "8937900976405853266"
-      },
-      {
-        "file": "static/styles.css",
-        "hash": "5135390112669314880"
-      },
-      {
-        "file": "static/runtime.js",
-        "hash": "2835949357856416383"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "14684446513790140520"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "static/favicon.ico",
         "hash": "9303420814833116677"
       },
       {
-        "file": "README.md",
-        "hash": "13700441986123931962"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "3431425551517930404"
+        "file": "static/main.js",
+        "hash": "10543383890141206284"
       },
       {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
       },
       {
-        "file": "static/environment.js",
-        "hash": "12768544180004695811"
+        "file": "static/runtime.js",
+        "hash": "2835949357856416383"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "static/main.js",
-        "hash": "10543383890141206284"
+        "file": "pnpm-lock.yaml",
+        "hash": "2234757512635784925"
       },
       {
         "file": "nx.json",
         "hash": "2343337652670207271"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "2234757512635784925"
+        "file": "static/styles.css",
+        "hash": "5135390112669314880"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "3431425551517930404"
+      },
+      {
+        "file": "static/styles.js",
+        "hash": "7569025066195547382"
+      },
+      {
+        "file": "README.md",
+        "hash": "13700441986123931962"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "14684446513790140520"
+      },
+      {
+        "file": "dependency-graph.html",
+        "hash": "12560290355241016586"
+      },
+      {
+        "file": "static/environment.js",
+        "hash": "12768544180004695811"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "8742485222694460901"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11753702689961626921"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package.json",
+        "hash": "8937900976405853266"
       }
     ],
     "projectFileMap": {
@@ -148,10 +148,6 @@
         }
       ],
       "landing": [
-        {
-          "file": "apps/landing/.next/_events.json",
-          "hash": "9193654548086915879"
-        },
         {
           "file": "apps/landing/.next/app-build-manifest.json",
           "hash": "7205868890036356358"
