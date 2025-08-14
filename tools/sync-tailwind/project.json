@@ -1,0 +1,44 @@
+{
+  "name": "sync-tailwind",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "tools/sync-tailwind/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/tools/sync-tailwind",
+        "main": "tools/sync-tailwind/src/index.ts",
+        "tsConfig": "tools/sync-tailwind/tsconfig.lib.json",
+        "assets": [
+          "tools/sync-tailwind/*.md",
+          {
+            "input": "./tools/sync-tailwind/src",
+            "glob": "**/!(*.ts)",
+            "output": "./src"
+          },
+          {
+            "input": "./tools/sync-tailwind/src",
+            "glob": "**/*.d.ts",
+            "output": "./src"
+          },
+          {
+            "input": "./tools/sync-tailwind",
+            "glob": "generators.json",
+            "output": "."
+          },
+          {
+            "input": "./tools/sync-tailwind",
+            "glob": "executors.json",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

@@ -466,6 +466,10 @@
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
+    "tags.type:node": [
+      "apps/landing/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.targetGroups": [
       "apps/landing/package.json",
       "nx/core/package-json"
@@ -514,11 +518,15 @@
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
+    "targets.dev.metadata": [
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.metadata": [
+    "targets.dev.syncGenerators": [
+      "apps/landing/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
@@ -542,11 +550,15 @@
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
-    "targets.build.options": [
+    "targets.build.metadata": [
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
-    "targets.build.metadata": [
+    "targets.build.syncGenerators": [
+      "apps/landing/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "apps/landing/package.json",
       "nx/core/package-json"
     ],
@@ -752,6 +764,22 @@
       "packages/shared-ui/package.json",
       "nx/core/package-json"
     ],
+    "targets.nx-release-publish": [
+      "packages/shared-ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/shared-ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/shared-ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/shared-ui/package.json",
+      "nx/core/package-json"
+    ],
     "targets.build.inputs": [
       "nx.json",
       "nx/target-defaults"
@@ -769,6 +797,128 @@
       "nx/target-defaults"
     ],
     "targets.dev.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "tools/sync-tailwind": {
+    "root": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "tools/sync-tailwind/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "tools/sync-tailwind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
       "nx.json",
       "nx/target-defaults"
     ]

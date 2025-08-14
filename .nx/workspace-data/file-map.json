@@ -1,108 +1,473 @@
 {
   "version": "6.0",
   "nxVersion": "21.3.11",
-  "pathMappings": {},
+  "pathMappings": {
+    "sync-tailwind": [
+      "tools/sync-tailwind/src/index.ts"
+    ]
+  },
   "nxJsonPlugins": [],
   "fileMap": {
     "nonProjectFiles": [
-      {
-        "file": "package.json",
-        "hash": "8751725541699964837"
-      },
-      {
-        "file": "static/environment.js",
-        "hash": "12768544180004695811"
-      },
-      {
-        "file": ".nx/workspace-data/E7B1F365-6A00-5F4D-853A-0073D7603723.db-shm",
-        "hash": "11275989199343864445"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "8197223220134636917"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "675737732758602688"
-      },
       {
         "file": "static/styles.js",
         "hash": "7569025066195547382"
       },
       {
-        "file": "dependency-graph.html",
-        "hash": "12560290355241016586"
+        "file": ".gitignore",
+        "hash": "11753702689961626921"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "12306673120572248009"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "14684446513790140520"
-      },
-      {
-        "file": ".nx/workspace-data/E7B1F365-6A00-5F4D-853A-0073D7603723.db-wal",
-        "hash": "8174096346757156534"
-      },
-      {
-        "file": "static/main.js",
-        "hash": "10543383890141206284"
-      },
-      {
-        "file": "static/favicon.ico",
-        "hash": "9303420814833116677"
-      },
-      {
-        "file": ".nx/workspace-data/d/daemon.log",
-        "hash": "5447845398774417499"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "11854644235916334300"
-      },
-      {
-        "file": "README.md",
-        "hash": "13700441986123931962"
-      },
-      {
-        "file": "nx.json",
-        "hash": "875501778408461423"
-      },
-      {
-        "file": "static/runtime.js",
-        "hash": "2835949357856416383"
-      },
-      {
-        "file": ".nx/workspace-data/lockfile.hash",
-        "hash": "2258179684307776080"
+        "file": "eslint.config.mjs",
+        "hash": "8742485222694460901"
       },
       {
         "file": "CLAUDE.md",
         "hash": "3244421341483603138"
       },
       {
-        "file": ".nx/workspace-data/parsed-lock-file.json",
-        "hash": "4146601625526299189"
+        "file": "dependency-graph.html",
+        "hash": "12560290355241016586"
+      },
+      {
+        "file": "package.json",
+        "hash": "8937900976405853266"
       },
       {
         "file": "static/styles.css",
         "hash": "5135390112669314880"
       },
       {
-        "file": ".nx/cache/terminalOutputs/6517970499672260316",
-        "hash": "735254147758227273"
+        "file": "static/runtime.js",
+        "hash": "2835949357856416383"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "14684446513790140520"
+      },
+      {
+        "file": "static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "README.md",
+        "hash": "13700441986123931962"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "3431425551517930404"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "static/environment.js",
+        "hash": "12768544180004695811"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "static/main.js",
+        "hash": "10543383890141206284"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2343337652670207271"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "2234757512635784925"
       }
     ],
     "projectFileMap": {
-      "landing": [
+      "sync-tailwind": [
         {
-          "file": "apps/landing/.git/FETCH_HEAD",
+          "file": "tools/sync-tailwind/README.md",
+          "hash": "13092400972724888494"
+        },
+        {
+          "file": "tools/sync-tailwind/eslint.config.mjs",
+          "hash": "1469173688551256174",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "tools/sync-tailwind/generators.json",
+          "hash": "12328713625723978096"
+        },
+        {
+          "file": "tools/sync-tailwind/package.json",
+          "hash": "469102844029654276",
+          "deps": [
+            "npm:@nx/devkit",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "tools/sync-tailwind/project.json",
+          "hash": "15382488884802372554"
+        },
+        {
+          "file": "tools/sync-tailwind/src/generators/files/src/index.ts.template",
+          "hash": "8516815386028856332"
+        },
+        {
+          "file": "tools/sync-tailwind/src/generators/schema.d.ts",
+          "hash": "5442445569130111873"
+        },
+        {
+          "file": "tools/sync-tailwind/src/generators/schema.json",
+          "hash": "14526566124029934736"
+        },
+        {
+          "file": "tools/sync-tailwind/src/generators/sync-tailwind-sources.ts",
+          "hash": "2540884802006544873",
+          "deps": [
+            "npm:@nx/devkit",
+            "npm:nx"
+          ]
+        },
+        {
+          "file": "tools/sync-tailwind/src/index.ts",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/landing/.gitignore",
-          "hash": "1867017717006394117"
+          "file": "tools/sync-tailwind/tsconfig.json",
+          "hash": "14490782888307098276"
+        },
+        {
+          "file": "tools/sync-tailwind/tsconfig.lib.json",
+          "hash": "888448788237103429"
+        }
+      ],
+      "landing": [
+        {
+          "file": "apps/landing/.next/_events.json",
+          "hash": "9193654548086915879"
+        },
+        {
+          "file": "apps/landing/.next/app-build-manifest.json",
+          "hash": "7205868890036356358"
+        },
+        {
+          "file": "apps/landing/.next/build-manifest.json",
+          "hash": "5125768831124365349"
+        },
+        {
+          "file": "apps/landing/.next/cache/.rscinfo",
+          "hash": "12878791840199509240"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/0.pack.gz",
+          "hash": "18276901943978691766"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/1.pack.gz",
+          "hash": "11994634849264623965"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/2.pack.gz",
+          "hash": "18049435974573480205"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/3.pack.gz",
+          "hash": "3606157307229168000"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/4.pack.gz",
+          "hash": "14511897300219969243"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/5.pack.gz",
+          "hash": "13416846198206489474"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/index.pack.gz",
+          "hash": "17601762835431820328"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "10362057539758258625"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/0.pack.gz",
+          "hash": "7845631617842939214"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/1.pack.gz",
+          "hash": "14269301239360297940"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/2.pack.gz",
+          "hash": "16600748754181364576"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/3.pack.gz",
+          "hash": "5579043410686813321"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/4.pack.gz",
+          "hash": "10291369812099568319"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/5.pack.gz",
+          "hash": "7314838136538116781"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/6.pack.gz",
+          "hash": "12859354283457905487"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/7.pack.gz",
+          "hash": "10203277919301107261"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "3557109733647711135"
+        },
+        {
+          "file": "apps/landing/.next/cache/webpack/server-development/index.pack.gz_",
+          "hash": "4174174401462111229"
+        },
+        {
+          "file": "apps/landing/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/landing/.next/prerender-manifest.json",
+          "hash": "13737100017776130103"
+        },
+        {
+          "file": "apps/landing/.next/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/landing/.next/routes-manifest.json",
+          "hash": "2282505038782265489"
+        },
+        {
+          "file": "apps/landing/.next/server/app-paths-manifest.json",
+          "hash": "5764323171076831027"
+        },
+        {
+          "file": "apps/landing/.next/server/app/favicon.ico/route.js",
+          "hash": "5447595648110729688",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/landing/.next/server/app/page.js",
+          "hash": "4473228549007315348",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/landing/.next/server/app/page_client-reference-manifest.js",
+          "hash": "15482176036134412413"
+        },
+        {
+          "file": "apps/landing/.next/server/interception-route-rewrite-manifest.js",
+          "hash": "10484309360224763022"
+        },
+        {
+          "file": "apps/landing/.next/server/middleware-build-manifest.js",
+          "hash": "10146558356613894909"
+        },
+        {
+          "file": "apps/landing/.next/server/middleware-manifest.json",
+          "hash": "9889576824779923310"
+        },
+        {
+          "file": "apps/landing/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "9185069726031651908"
+        },
+        {
+          "file": "apps/landing/.next/server/next-font-manifest.js",
+          "hash": "235574930430714037"
+        },
+        {
+          "file": "apps/landing/.next/server/next-font-manifest.json",
+          "hash": "8417522144566201252"
+        },
+        {
+          "file": "apps/landing/.next/server/pages-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/landing/.next/server/server-reference-manifest.js",
+          "hash": "13062913855343812063"
+        },
+        {
+          "file": "apps/landing/.next/server/server-reference-manifest.json",
+          "hash": "2776188493074223745"
+        },
+        {
+          "file": "apps/landing/.next/server/vendor-chunks/@swc+helpers@0.5.15.js",
+          "hash": "9241418992981327034"
+        },
+        {
+          "file": "apps/landing/.next/server/vendor-chunks/next@15.4.6_@babel+core@7.28.0_babel-plugin-macros@3.1.0_react-dom@19.1.0_react@19.1.0__react@19.1.0.js",
+          "hash": "9467413819581484481"
+        },
+        {
+          "file": "apps/landing/.next/server/webpack-runtime.js",
+          "hash": "17454834068337055134"
+        },
+        {
+          "file": "apps/landing/.next/static/chunks/app-pages-internals.js",
+          "hash": "1276267137268570178"
+        },
+        {
+          "file": "apps/landing/.next/static/chunks/app/layout.js",
+          "hash": "9409760924288860615"
+        },
+        {
+          "file": "apps/landing/.next/static/chunks/app/page.js",
+          "hash": "16584667749777669307"
+        },
+        {
+          "file": "apps/landing/.next/static/chunks/main-app.js",
+          "hash": "12381737170490552238"
+        },
+        {
+          "file": "apps/landing/.next/static/chunks/polyfills.js",
+          "hash": "8152964857117933876"
+        },
+        {
+          "file": "apps/landing/.next/static/chunks/webpack.js",
+          "hash": "12345344441418761035"
+        },
+        {
+          "file": "apps/landing/.next/static/css/app/layout.css",
+          "hash": "4613454761889692560"
+        },
+        {
+          "file": "apps/landing/.next/static/development/_buildManifest.js",
+          "hash": "13063724784290855366"
+        },
+        {
+          "file": "apps/landing/.next/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/landing/.next/static/media/569ce4b8f30dc480-s.p.woff2",
+          "hash": "16363182848401059423"
+        },
+        {
+          "file": "apps/landing/.next/static/media/747892c23ea88013-s.woff2",
+          "hash": "2484364382134452397"
+        },
+        {
+          "file": "apps/landing/.next/static/media/8d697b304b401681-s.woff2",
+          "hash": "16898193935657147443"
+        },
+        {
+          "file": "apps/landing/.next/static/media/93f479601ee12b01-s.p.woff2",
+          "hash": "12815628345386823549"
+        },
+        {
+          "file": "apps/landing/.next/static/media/9610d9e46709d722-s.woff2",
+          "hash": "5241196410900714304"
+        },
+        {
+          "file": "apps/landing/.next/static/media/ba015fad6dcf6784-s.woff2",
+          "hash": "1725881887190334938"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/22af1a580a946f6b.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/40893456960d6bbc.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/633457081244afec._.hot-update.json",
+          "hash": "10481436618516908015"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/669731663a4ba234.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/app/layout.22af1a580a946f6b.hot-update.js",
+          "hash": "11293488354116291747"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/app/layout.40893456960d6bbc.hot-update.js",
+          "hash": "17572502343737840409"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/app/layout.669731663a4ba234.hot-update.js",
+          "hash": "17675514894057487955"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/app/layout.b5afdb8f2a59a6e4.hot-update.js",
+          "hash": "11924298222851906576"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/b5afdb8f2a59a6e4.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/webpack.22af1a580a946f6b.hot-update.js",
+          "hash": "10978330725035103407"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/webpack.40893456960d6bbc.hot-update.js",
+          "hash": "10657627207629517505"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/webpack.669731663a4ba234.hot-update.js",
+          "hash": "28529903807003285"
+        },
+        {
+          "file": "apps/landing/.next/static/webpack/webpack.b5afdb8f2a59a6e4.hot-update.js",
+          "hash": "1869574714355781603"
+        },
+        {
+          "file": "apps/landing/.next/trace",
+          "hash": "6536863934920340016"
+        },
+        {
+          "file": "apps/landing/.next/types/app/layout.ts",
+          "hash": "5857484215008673000",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/landing/.next/types/app/page.ts",
+          "hash": "12889994321232368863",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/landing/.next/types/cache-life.d.ts",
+          "hash": "12858368115349027927",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/landing/.next/types/package.json",
+          "hash": "6094546126370684104"
         },
         {
           "file": "apps/landing/README.md",
@@ -110,11 +475,17 @@
         },
         {
           "file": "apps/landing/eslint.config.mjs",
-          "hash": "11349616980964601162"
+          "hash": "11349616980964601162",
+          "deps": [
+            "npm:@eslint/eslintrc"
+          ]
         },
         {
           "file": "apps/landing/next.config.ts",
-          "hash": "17157214668998829023"
+          "hash": "17157214668998829023",
+          "deps": [
+            "npm:next"
+          ]
         },
         {
           "file": "apps/landing/package-lock.json",
@@ -122,7 +493,7 @@
         },
         {
           "file": "apps/landing/package.json",
-          "hash": "17088279406752263201",
+          "hash": "17676336519479477526",
           "deps": [
             "npm:@eslint/eslintrc",
             "npm:@tailwindcss/postcss",
@@ -169,15 +540,21 @@
         },
         {
           "file": "apps/landing/src/app/globals.css",
-          "hash": "14497081534050743901"
+          "hash": "7175951178131133175"
         },
         {
           "file": "apps/landing/src/app/layout.tsx",
-          "hash": "3768300601413009371"
+          "hash": "3768300601413009371",
+          "deps": [
+            "npm:next"
+          ]
         },
         {
           "file": "apps/landing/src/app/page.tsx",
-          "hash": "16724718120515079934"
+          "hash": "16724718120515079934",
+          "deps": [
+            "shared-ui"
+          ]
         },
         {
           "file": "apps/landing/tsconfig.json",
@@ -185,10 +562,6 @@
         }
       ],
       "core": [
-        {
-          "file": "apps/core/.git/FETCH_HEAD",
-          "hash": "3244421341483603138"
-        },
         {
           "file": "apps/core/.gitignore",
           "hash": "12634402967133909834"
@@ -203,7 +576,13 @@
         },
         {
           "file": "apps/core/eslint.config.mjs",
-          "hash": "341460240617997069"
+          "hash": "341460240617997069",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:eslint-plugin-prettier",
+            "npm:globals@16.3.0",
+            "npm:typescript-eslint"
+          ]
         },
         {
           "file": "apps/core/nest-cli.json",
@@ -227,7 +606,7 @@
             "npm:eslint-plugin-prettier",
             "npm:globals@16.3.0",
             "npm:jest",
-            "npm:prettier",
+            "npm:prettier@3.6.2",
             "npm:source-map-support@0.5.21",
             "npm:supertest",
             "npm:ts-jest",
@@ -245,27 +624,47 @@
         },
         {
           "file": "apps/core/src/app.controller.spec.ts",
-          "hash": "2727664763654384995"
+          "hash": "2727664763654384995",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
         },
         {
           "file": "apps/core/src/app.controller.ts",
-          "hash": "4552329938751326480"
+          "hash": "4552329938751326480",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "apps/core/src/app.module.ts",
-          "hash": "11673476679848632172"
+          "hash": "11673476679848632172",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "apps/core/src/app.service.ts",
-          "hash": "16892833931858030153"
+          "hash": "16892833931858030153",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "apps/core/src/main.ts",
-          "hash": "6783086878492621953"
+          "hash": "6783086878492621953",
+          "deps": [
+            "npm:@nestjs/core"
+          ]
         },
         {
           "file": "apps/core/test/app.e2e-spec.ts",
-          "hash": "7164584812487523395"
+          "hash": "7164584812487523395",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
         },
         {
           "file": "apps/core/test/jest-e2e.json",
@@ -282,42 +681,6 @@
       ],
       "shared-ui": [
         {
-          "file": "packages/shared-ui/dist/Button.d.ts",
-          "hash": "599153057272669030"
-        },
-        {
-          "file": "packages/shared-ui/dist/Button.d.ts.map",
-          "hash": "5195733802247719754"
-        },
-        {
-          "file": "packages/shared-ui/dist/Button.js",
-          "hash": "10987258031290915613"
-        },
-        {
-          "file": "packages/shared-ui/dist/Button.js.map",
-          "hash": "984834587320923978"
-        },
-        {
-          "file": "packages/shared-ui/dist/index.d.ts",
-          "hash": "10156354172305793160"
-        },
-        {
-          "file": "packages/shared-ui/dist/index.d.ts.map",
-          "hash": "15633492455210189669"
-        },
-        {
-          "file": "packages/shared-ui/dist/index.js",
-          "hash": "3662893524702035775"
-        },
-        {
-          "file": "packages/shared-ui/dist/index.js.map",
-          "hash": "4134222674892864748"
-        },
-        {
-          "file": "packages/shared-ui/dist/tsconfig.tsbuildinfo",
-          "hash": "12618007181194190178"
-        },
-        {
           "file": "packages/shared-ui/package.json",
           "hash": "10484812003348170682",
           "deps": [
@@ -328,7 +691,10 @@
         },
         {
           "file": "packages/shared-ui/src/Button.tsx",
-          "hash": "10558103602602167424"
+          "hash": "11898157870622370020",
+          "deps": [
+            "npm:react"
+          ]
         },
         {
           "file": "packages/shared-ui/src/index.ts",
@@ -337,10 +703,6 @@
         {
           "file": "packages/shared-ui/tsconfig.json",
           "hash": "1272942749510291653"
-        },
-        {
-          "file": "packages/shared-ui/tsconfig.tsbuildinfo",
-          "hash": "6441543887590162076"
         }
       ]
     }

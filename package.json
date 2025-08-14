@@ -12,9 +12,28 @@
   "license": "ISC",
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
-    "nx": "^21.3.11"
+    "@eslint/js": "^9.8.0",
+    "@nx/eslint": "21.3.11",
+    "@nx/eslint-plugin": "21.3.11",
+    "@nx/jest": "21.3.11",
+    "@nx/js": "21.3.11",
+    "@nx/plugin": "21.3.11",
+    "@swc-node/register": "~1.9.1",
+    "@swc/cli": "~0.6.0",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^10.0.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "nx": "^21.3.11",
+    "prettier": "^2.6.2",
+    "tslib": "^2.3.0",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.29.0"
   },
   "dependencies": {
+    "@nx/devkit": "21.3.11",
     "concurrently": "^9.2.0"
   }
 }

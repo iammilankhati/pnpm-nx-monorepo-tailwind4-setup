@@ -1,0 +1,30 @@
+
+> landing@0.1.0 dev /Users/azminds/Desktop/daily/playground/pnpm-nx-monorepo/apps/landing
+> next dev
+
+ [33m[1m⚠[22m[39m Warning: Found multiple lockfiles. Selecting /Users/azminds/Desktop/daily/playground/pnpm-nx-monorepo/pnpm-lock.yaml.
+   Consider removing the lockfiles at:
+   * /Users/azminds/Desktop/daily/playground/pnpm-nx-monorepo/apps/landing/package-lock.json
+
+   [1m[38;2;173;127;168m▲ Next.js 15.4.6[39m[22m
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.67:3000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 2.5s
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 6.8s (553 modules)
+ GET / [32m200[39m in 7668ms
+ [37m[1m○[22m[39m Compiling /favicon.ico ...
+ [32m[1m✓[22m[39m Compiled /favicon.ico in 608ms (343 modules)
+ GET /favicon.ico [32m200[39m in 939ms
+ GET / [32m200[39m in 286ms
+ GET /favicon.ico [32m200[39m in 40ms
+ [32m[1m✓[22m[39m Compiled in 515ms (227 modules)
+ GET / [32m200[39m in 108ms
+ [32m[1m✓[22m[39m Compiled in 456ms (570 modules)
+ GET / [32m200[39m in 174ms
+ [32m[1m✓[22m[39m Compiled in 339ms (227 modules)
+ GET / [32m200[39m in 317ms
+ [32m[1m✓[22m[39m Compiled in 582ms (570 modules)
+ GET / [32m200[39m in 101ms

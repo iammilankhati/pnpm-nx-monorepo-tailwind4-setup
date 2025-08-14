@@ -1,0 +1,16 @@
+
+> shared-ui@1.0.0 dev /Users/azminds/Desktop/daily/playground/pnpm-nx-monorepo/packages/shared-ui
+> tsc --watch
+
+[2J[3J[H11:34:07 AM - Starting compilation in watch mode...
+
+
+11:34:10 AM - Found 0 errors. Watching for file changes.
+[2J[3J[H11:34:52 AM - File change detected. Starting incremental compilation...
+
+
+11:34:53 AM - Found 0 errors. Watching for file changes.
+[2J[3J[H11:34:57 AM - File change detected. Starting incremental compilation...
+
+
+11:34:57 AM - Found 0 errors. Watching for file changes.

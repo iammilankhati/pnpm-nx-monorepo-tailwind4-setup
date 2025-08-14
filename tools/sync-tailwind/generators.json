@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "sync-tailwind-sources": {
+      "factory": "./src/generators/sync-tailwind-sources",
+      "schema": "./src/generators/schema.json",
+      "description": "sync-tailwind-sources generator"
+    }
+  }
+}

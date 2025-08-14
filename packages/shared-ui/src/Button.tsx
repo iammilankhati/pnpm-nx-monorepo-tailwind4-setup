@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({
 
 
   return (
-    <button {...props} className='p-4 rounded-4xl bg-green-500
+    <button {...props} className='p-4 rounded-4xl bg-yellow-500
         '>
       {children} testing
     </button>
